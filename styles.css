@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.logo {
+  font-family: "Bebas Neue", cursive;
+  font-family: "Bebas Neue", cursive;
+  font-size: 3em;
+  margin: 0;
+  margin-left: 30px;
+}
+
+.navbar {
+  height: 70px;
+  padding: 20px 0;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 20% 1fr 25%;
+}
+.navbar ul {
+  grid-template-columns: 1fr 1fr 1fr 1fr 50%;
+  list-style: none;
+  display: grid;
+  padding-left: 0;
+}
+
+.login {
+  display: grid;
+  grid-template-columns: 1fr 1fr 50px;
+  column-gap: 18px;
+}
+
+button {
+  height: 40px;
+  font-size: 16px;
+  min-width: 100px;
+  border: 1px solid #bbb;
+  background-color: transparent;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+button:hover, button:active {
+    box-shadow: 5px 5px 5px #eee;
+}
+
+li {
+  margin-right: 1em;
+}
+
+img {
+  width: 150px;
+  height: auto;
+}
+
+.about {
+  display: grid;
+  /* height: 30%; */
+  column-gap: 4em;
+  padding: 7em 8% 3em 10%;
+  grid-template-columns: 50% 45%;
+}
+
+p {
+  line-height: 2;
+  margin: 2em 0;
+}
+
+.more {
+  background-color: #17152e;
+  color: white;
+  width: 180px;
+  border: none;
+}
+
+.more:hover {
+  background-color: white;
+  color: #17152e;
+  border: 1px solid #bbb;
+}
+.clients {
+  height: 50px;
+  opacity: 0.5;
+  display: inline-flex;
+  margin: 3em 8% 3em 10%;
+  width: fit-content;
+}
+
+.clients img {
+  margin-right: 1em;
+}
